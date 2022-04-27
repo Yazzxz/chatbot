@@ -1,0 +1,67 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat{
+    
+    border-radius: 16px 16px 16px 16px;
+    margin-top: 50px;
+    width: 500px;
+    background-color: grey;
+}
+
+.mensajePropio {
+    border-radius: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: aquamarine;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.mensajeOtro {
+    border-radius: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgb(255, 144, 255);
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.mensajes{
+    display:flexbox;
+    height: 600px;
+    width: 500px;
+}
+.escritor{
+    border-radius: 16px;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 396px;
+    height: 30px;
+    border-style: none;
+}
+.enviar{
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    border-style: none;
+    height: 30px;
+    border-radius: 16px;
+
+}
+
+.escrib{
+    background-color: cornflowerblue;
+    height: 60px;
+    border-radius: 0px 0px 16px 16px;
+}
